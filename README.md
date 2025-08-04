@@ -13,7 +13,11 @@
 
 3. **Run**:  
    ```bash
-   
+   g++ -o busscraft.exe main.cpp -I/mingw64/include -L/mingw64/lib -lglfw3 -lopengl32 -lglu32 -lgdi32 -std=gnu++11
+
+   // or if you use Clang
+
+   clang++ -o busscraft.exe main.cpp -I/mingw64/include -L/mingw64/lib -lglfw3 -lopengl32 -lglu32 -lgdi32 -std=c++11
    ```
 
 ## 📂 Project Structure  
